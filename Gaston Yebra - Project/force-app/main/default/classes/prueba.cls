@@ -223,3 +223,29 @@ for(Legal_Advisor__c a : listaAdvisors){
 
     }
 }
+
+/*  CONTADOR DE LEGAL ADVISORS Y DE CLIENTS */
+
+
+- UN TRIGGER!!!!!!
+
+
+
+
+
+
+
+/* ---------------------------------------- */
+
+/* SCHEDULABLE UPDATE */
+
+-PREGUNTAR SI EL SCHEDULE TIENE QUE SER A LAS 20 DE URUGUAY O DE USA!!!
+
+
+
+ucl_ScheduleUpdate schedule = new ucl_ScheduleUpdate();
+String sch = '0 30 20 ? * *';
+String jobID = System.schedule('Heroku Daily Update', sch, schedule);
+
+
+/* ---------------------------------------- */

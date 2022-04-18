@@ -1,6 +1,6 @@
 public with sharing class ucl_UpdateData {
 
-
+    @AuraEnabled
     public static void ucl_UpdateData() {
 
         List<Object> lista = ucl_LegalAccountsCallouts.makeGetCallout();
@@ -59,7 +59,8 @@ public with sharing class ucl_UpdateData {
                     cli.Phone__c = (String) cliMap.get('Phone');
                     cli.Address__c = (String) cliMap.get('Address');
                     cli.Client_Number__c = (String) cliMap.get('ClientNumber');
-                    cli.Advisor_Number__c = (String) advMap.get('AccountNumber'); 
+                    cli.Advisor_Number__c = (String) advMap.get('AccountNumber');
+                    cli.Imported__c = true; 
                     
 
                     clientes.add(cli);
@@ -147,7 +148,7 @@ public with sharing class ucl_UpdateData {
 
 //PRUEBA
 
-        List<Client__c> clais = [select id, Advisor_Number__c, Client_Number__c from Client__c];
+        List<Client__c> clais = [select id, Advisor_Number__c, Client_Number__c, Imported__c from Client__c];
         for(Client__c ci : clais){
             integer count = 0;
             for(Client__c b  : clientes){
@@ -156,7 +157,7 @@ public with sharing class ucl_UpdateData {
                     count++;
                 }
             }
-            if(count == 0){
+            if(count == 0 && ci.Imported__c){ //TENGO QUE VER COMO HACER PARA QUE AL CREAR EL ADMIN UN NUEVO CLIENTE NO PUEDE CHECKEAR EL CAMPO IMPORTED
                 delete ci;
             }
         }
