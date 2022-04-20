@@ -1,0 +1,64 @@
+[{
+        "AccountNumber": "5a1e62e9-8894-4e82-86f5-4a73df44d474",
+        "AccountName": "Cucumelo",
+        "AccountStatus": "Enabled",
+        "AsOfDate": "6/30/2019",
+        "Clients": [
+          {
+            "FirstName": "Genedfseve",
+            "LastName": "Vila",
+            "Email": "gvila0@shop-pro.jp",
+            "Phone": "177-508-9836",
+            "Address": "0870 ayooooo Circle",
+            "ClientNumber": "213c98aa-7a91asdfc-9748-26dca234e898"
+          }
+        ]
+      },
+      {
+        "AccountNumber": "5a1e51e9-8894-4e82-86f5-4a73df44d474",
+        "AccountName": "Vinte",
+        "AccountStatus": "Enabled",
+        "AsOfDate": "6/30/2019",
+        "Clients": [
+          {
+            "FirstName": "Genedfeve",
+            "LastName": "Vila",
+            "Email": "gvila0@shop-pro.jp",
+            "Phone": "177-508-9836",
+            "Address": "0870 Tennessee Circle",
+            "ClientNumber": "213cdfsa-7a91-4c1c-9748-26dca234e898"
+          }
+        ]
+      },{
+        "AccountNumber": "5a1efd-8894-4e82-86f5-4a73df44d474",
+        "AccountName": "Pedrito",
+        "AccountStatus": "Enable",
+        "AsOfDate": "6/30/2019",
+        "Clients": [
+          {
+            "FirstName": "Genevieve",
+            "LastName": "Vila",
+            "Email": "gvila0@shop-pro.jp",
+            "Phone": "177-508-9836",
+            "Address": "0870 Tennessee Circle",
+            "ClientNumber": "213c98aa-7a91-4c1c-9748-26dca234e898"
+          }
+        ]
+      },
+      {
+        "AccountNumber": "5a1efd-8894-4e82-86f5-4a73df44d474",
+        "AccountName": "Pedrito",
+        "AccountStatus": "Disable",
+        "AsOfDate": "6/30/2019",
+        "Clients": [
+          {
+            "FirstName": "Genevieve",
+            "LastName": "Vila",
+            "Email": "gvila0@shop-pro.jp",
+            "Phone": "177-508-9836",
+            "Address": "0870 Tennessee Circle",
+            "ClientNumber": "213c98aa-7a91-4c1c-9748-26dca234e898"
+          }
+        ]
+      }
+      ]
