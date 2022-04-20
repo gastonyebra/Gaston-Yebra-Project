@@ -18,7 +18,24 @@
     </types>
     <types>
         <members>*</members>
-        <name>ApexCustomObjects</name>
+        <name>CustomField</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>ApexCustomObject</name>
+    </types>
+    <types>
+        <members>Universal_Containers_Lawyers</members>
+        <name>CustomApplication</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>LightningComponentBundle</name>
+    </types>
+    <types>
+        
+        <members>*</members>
+        <name>StaticResource</name>
     </types>
     <version>53.0</version>
 </Package>
